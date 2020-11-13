@@ -1,0 +1,271 @@
+﻿@media (min-width: 1281px) {
+    .h1S {
+        font-size: 33px;
+    }
+
+    .h2S {
+        font-size: 28px;
+    }
+
+    .pS {
+        font-size: 16px;
+    }
+
+    .myButton, .CheatB {
+        height: 45px;
+        padding: 0px;
+        font-size: 14px;
+        width: 210px;
+    }
+
+    .special {
+        height: 50px;
+        width: 170px;
+        font-size: 16px;
+        padding: 0px;
+    }
+
+    img {
+        width: 15%;
+    }
+
+
+    progress {
+        width: 300px;
+    }
+
+    #scR {
+        margin-left: 30%;
+    }
+
+
+    #lostL, #bonusLife {
+        margin-left: 58%;
+    }
+}
+
+
+
+
+@media (min-width: 1201px) and (max-width: 1280px) {
+    .h1S {
+        font-size: 28px;
+    }
+
+    .h2S {
+        font-size: 22px;
+    }
+
+    .pS {
+        font-size: 14px;
+    }
+
+    .myButton, .CheatB {
+        height: 38px;
+        padding: 0px;
+        font-size: 13px;
+        width: 200px;
+    }
+
+    .special {
+        height: 50px;
+        width: 170px;
+        font-size: 16px;
+        padding: 0px;
+    }
+
+    img {
+        width: 14%;
+    }
+
+    #scR {
+        margin-left: 30%;
+    }
+
+    #lostL, #bonusLife {
+        margin-left: 57%;
+    }
+
+
+}
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) 
+{
+  
+    .h1S {
+        font-size: 25px;
+    }
+
+    .h2S {
+        font-size: 20px;
+    }
+
+    .pS {
+        font-size: 15px;
+    }
+
+    .myButton, .CheatB {
+        height: 38px;
+        padding: 0px;
+        font-size: 13px;
+        width: 200px;
+    }
+
+    img {
+        width: 17%;
+    }
+
+    .special {
+        height: 50px;
+        width: 170px;
+        font-size: 16px;
+        padding: 0px;
+    }
+
+    #lostL, #bonusLife {
+        margin-left: 59%;
+    }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+   
+    .h1S {
+        font-size: 25px;
+    }
+
+    .h2S {
+        font-size: 20px;
+    }
+
+    .pS {
+        font-size: 15px;
+    }
+    .myButton, .CheatB {
+        height: 38px;
+        padding: 0px;
+        font-size: 13px;
+        width: 200px;
+    }
+
+    img {
+        width: 22.5%;
+    }
+
+    .special {
+        height: 40px;
+        width: 140px;
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    progress {
+        width: 200px; 
+    }
+
+    #scR {
+        margin-left: 25%
+    }
+
+    #lostL, #bonusLife {
+        margin-left: 61%;
+    }
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 449px) 
+{
+
+    .h1S {
+        font-size: 22px;
+    }
+
+    .h2S {
+        font-size: 18px;
+    }
+
+    .pS {
+        font-size: 13px;
+    } 
+
+    .myButton, .CheatB {
+        height: 30px;
+        padding: 0px;
+        font-size: 9px;
+        width: 120px;
+    }
+
+    img {
+        width: 35%;
+    }
+    .special {
+        height: 30px;
+        width: 90px;
+        font-size: x-small;
+        padding: 0px;
+    }
+
+    progress {
+        width: 90px;
+    }
+
+    #scR {
+        margin-left: 10%;
+        width: 17%;
+    }
+
+    #lostL, #bonusLife {
+        margin-left: 65%;
+        width: 17%;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 767px)
+{
+
+    .h1S {
+        font-size: 25px;
+    }
+
+    .h2S {
+        font-size: 20px;
+    }
+
+    .pS {
+        font-size: 15px;
+    }
+
+    .myButton, .CheatB {
+        height: 40px;
+        padding: 0px;
+        font-size: 12px;
+        width: 150px;
+    }
+
+    img {
+        width: 30%;
+    }
+    .special {
+        height: 40px;
+        width: 140px;
+        font-size: 13px;
+        padding: 0px;
+    }
+    progress {
+        width: 150px;
+    }
+
+    #scR {
+        margin-left: 15%;
+        width: 15%;
+    }
+
+    #lostL, #bonusLife {
+        margin-left: 65%;
+        width: 15%;
+    }
+    
+}

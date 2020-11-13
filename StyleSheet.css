@@ -1,0 +1,228 @@
+﻿body {
+    background-image: url('images/trivia 6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+html, head, body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+}
+
+* {
+    position: center;
+    text-align: center;
+    font-family: Calibri;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+    background-color: #eae0c2;
+    border: 2px solid #333029;
+    display: inline-block;
+    cursor: pointer;
+    color: #505739;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    text-align:center;
+}
+
+    button:hover {
+        background: linear-gradient(to bottom, #dfd3b5 5%, #dda263 100%);
+        background-color: #ccc2a6;
+    }
+
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+.special, .CheatB {
+    border-radius: 15px;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+h1 {
+    color: white;
+    text-shadow: 5px 5px 5px brown;
+    font-size: 25px;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+}
+.hide {
+    display: none;
+}
+
+.myButton {
+    height : 45px;
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background: linear-gradient(to bottom, #c62d1f 5%, brown 100%);
+    background-color: #c62d1f;
+    border-radius: 18px;
+    border: 1px solid #d02718;
+    display: inline-grid;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #810e05;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-95 {
+    margin-top: 95px;
+}
+
+#trivia {
+    width:50%;
+    height: auto;
+}
+
+#fire, #wow, #goodJob {
+    width: 30%;
+    height: auto;
+}
+
+.disable {
+    
+}
+
+#LevelUp {
+    margin-top: 215px;
+    width: 55%;
+    height: auto;
+}
+
+#getReady {
+    margin-top: 230px;
+    width: 50%;
+    height: auto;
+}
+
+#star {
+    width: 20%;
+    height: auto;
+}
+
+.selected {
+    background: #2d700a;
+}
+
+.lvl {
+    color: #dad0b3;
+}
+
+.f-red {
+    color: #f7650f;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+#cheat {
+    margin-top: 5px;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #f24437 5%, #fc8821 100%);
+    background-color: #f24437;
+}
+
+.myButton:active {
+        position: relative;
+        top: 1px;
+    }
+
+p {
+    color: #f7650f;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration-line: overline underline;
+    text-decoration-color: #710916;
+}
+
+.StartEnd {
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+    background-color: #eae0c2;
+    border-radius: 15px;
+    border: 2px solid #333029;
+    display: inline-block;
+    cursor: pointer;
+    color: #505739;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+
+progress {
+    display: inline-block; /* default: inline-block */
+    width: 250px;
+    margin-top: 10px;
+    padding: 4px;
+    border: 0 none;
+    background: #c62d1f;
+    border-radius: 14px;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+}
+
+    progress::-moz-progress-bar {
+        border-radius: 12px;
+        background: #FFF;
+        box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4), 0 2px 5px 0px rgba(0,0,0,0.3);
+    }
+/* webkit */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    progress {
+        height: 15px;
+    }
+}
+
+progress::-webkit-progress-bar {
+    background: transparent;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4), 0 2px 5px 0px rgba(0,0,0,0.3);
+}
+
+
+#scR {
+    position: absolute;
+    width: 10%;
+    margin-left: 28%;
+}
+
+#lostL, #bonusLife {
+    position: absolute;
+    width: 10%;
+    margin-left: 60%;
+}
